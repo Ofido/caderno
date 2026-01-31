@@ -1,0 +1,13 @@
+[tool.isort]
+profile = "black"
+line_length = 80
+
+[tool.mypy]
+python_version = "3.13"
+ignore_missing_imports = true
+strict = false
+show_error_codes = true
+pretty = true
+
+[tool.black]
+line-length = 80
